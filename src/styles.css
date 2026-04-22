@@ -1,0 +1,26 @@
+.color-primario{
+    background-color: #003285 ;
+}
+
+.color-secundario{
+    background-color: #2A629A;
+}
+
+.color-terciario{
+    background-color: #FFDA78;
+}
+
+.imagen-carrusel {
+    height: 50vh; /* Esto hará que el carrusel tenga la misma altura que el viewport */
+    object-fit: cover; /* Esto asegura que la imagen cubra todo el espacio disponible sin distorsionarse */
+}
+
+.carrusel-suave {
+    transition: height 0.5s ease-out; /* Esto hará que la altura cambie suavemente durante medio segundo */
+    
+}
+
+.carrusel-suave img {
+    transition: opacity 0.5s ease-out; /* Esto hará que la imagen cambie suavemente durante medio segundo */
+    width: 480px;
+}
